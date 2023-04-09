@@ -1,0 +1,9 @@
+.status-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 3px;
+}
+
+.status-bar__column i {
+  margin-left: 3px;
+}
