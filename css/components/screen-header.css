@@ -2,15 +2,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* padding: 20px; */
   padding: var(--horizontal-space);
+  margin-bottom: 15px;
 }
 
 .screen-header__title {
-  font-size: 30px;
+  font-size: 32px;
   font-weight: 600;
 }
 
 .screen-header__icons i {
-  padding: 0px 10px;
+  margin-left: 25px;
 }
