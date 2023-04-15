@@ -1,0 +1,111 @@
+.screen-header__icons {
+  position: relative;
+}
+
+.header-notification {
+  position: absolute;
+  right: -10px;
+  top: -10px;
+}
+
+.find-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.find-icons__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 10px;
+}
+.find-icons__icon i {
+  font-size: 35px;
+}
+.find-icons__icon span {
+  margin-top: 18px;
+  margin-bottom: 25px;
+  width: 95%;
+  text-align: center;
+}
+
+.recommended-friends {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  padding-bottom: 15px;
+  color: var(--silver);
+}
+
+.open-chat__channel-header {
+  margin-bottom: 25px;
+}
+
+.open-chat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--silver);
+}
+.open-chat:first-child {
+  margin-top: 15px;
+}
+
+.open-chat__title {
+  font-size: 20px;
+  color: black;
+}
+.open-chat__hashtags {
+  display: block;
+  margin: 5px 0px;
+}
+
+.open-chat__members {
+  display: flex;
+  align-items: center;
+}
+.open-chat__members-image {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+  box-shadow: var(--box-shadow);
+}
+.open-chat__members .divider {
+  width: 1px;
+  height: 15px;
+  background-color: var(--silver);
+  margin: 0px 5px;
+}
+.open-chat__members-status {
+  color: #ffb0e0;
+}
+
+.open-chat__photo {
+  position: relative;
+}
+.open-chat__image {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+}
+.open-chat__heart-count {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  padding: 5px;
+  font-size: 12px;
+  position: absolute;
+  right: 10px;
+  bottom: 8px;
+}
+
+.open-chat__divider {
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 15px 0px;
+  height: 1px;
+  width: 100%;
+}

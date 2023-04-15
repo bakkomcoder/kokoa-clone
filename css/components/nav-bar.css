@@ -19,11 +19,7 @@
   right: -15px;
   top: -20px;
 }
-.nav__more {
-  width: 7px;
-  height: 7px;
-  background-color: tomato;
-  border-radius: 50%;
+.nav__notification-sm {
   position: absolute;
   right: -10px;
 }

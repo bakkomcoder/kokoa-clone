@@ -34,25 +34,40 @@
     </header>
 
     <main class="main-screen">
-        <div class="user-component">
-            <div class="user-component__column">
-              <img
-                src="data:image/png;base64,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"
-                class="user-component__avatar"
-              />
-              <div class="user-component__text">
-                <h2 class="user-component__title">KakaoTalk</h2>
-                <h4 class="user-component__subtitle">
-                  Please check My kakao Account Info
-                </h4>
-              </div>
-            </div>
-            <div class="user-component__column">
-                <span class="user-component__time">21:22</span>
-                <span class="badge">1</span>
-            </div>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="data:image/png;base64,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"
+            class="user-component__avatar"
+          />
+          <div class="user-component__text">
+            <h2 class="user-component__title">KakaoTalk</h2>
+            <h4 class="user-component__subtitle">
+              Please check My kakao Account Info
+            </h4>
           </div>
         </div>
+        <div class="user-component__column">
+          <span class="user-component__time">21:22</span>
+          <span class="badge">1</span>
+        </div>
+      </div>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="https://avatars3.githubusercontent.com/u/3612017"
+            class="user-component__avatar"
+          />
+          <div class="user-component__text">
+            <h2 class="user-component__title">Nico</h2>
+            <h4 class="user-component__subtitle">It's time to clone!</h4>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span class="user-component__time">06:00</span>
+          <span class="badge">1</span>
+        </div>
+      </div>
     </main>
 
     <nav class="nav">
@@ -75,7 +90,7 @@
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="more.html">
-            <div class="nav__more"></div>
+            <div class="nav__notification-sm badge-sm"></div>
             <i class="fa-solid fa-ellipsis fa-2x"></i
           ></a>
         </li>

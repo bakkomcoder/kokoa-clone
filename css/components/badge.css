@@ -8,3 +8,10 @@
   align-items: center;
   color: white;
 }
+
+.badge-sm {
+  width: 6px;
+  height: 6px;
+  background-color: tomato;
+  border-radius: 50%;
+}
