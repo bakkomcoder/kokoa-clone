@@ -1,0 +1,46 @@
+.user-component__subtitle i {
+  margin-left: 5px;
+  color: tomato;
+}
+
+.more__channel {
+  margin-top: 50px;
+}
+.more__channel-header {
+  margin: 30px 0px;
+  color: black;
+  padding-top: -15px;
+}
+
+/* .more-screen .icon-row {
+  padding-top: 30px;
+} */
+
+.more-suggestion__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.more-suggestion__icons {
+  display: flex;
+}
+
+.more-suggestion__icon-image {
+  background-color: var(--yellow);
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.more-suggestion__icon-image i {
+  font-size: 30px;
+  color: white;
+}
+.more-suggestion__icon-text {
+  color: var(--silver);
+}

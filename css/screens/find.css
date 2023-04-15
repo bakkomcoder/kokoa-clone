@@ -8,27 +8,6 @@
   top: -10px;
 }
 
-.find-icons {
-  display: flex;
-  justify-content: space-between;
-}
-
-.find-icons__icon {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0px 10px;
-}
-.find-icons__icon i {
-  font-size: 35px;
-}
-.find-icons__icon span {
-  margin-top: 18px;
-  margin-bottom: 25px;
-  width: 95%;
-  text-align: center;
-}
-
 .recommended-friends {
   display: flex;
   justify-content: center;
