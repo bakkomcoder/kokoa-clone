@@ -1,0 +1,29 @@
+#settings-screen {
+  background-color: white;
+}
+.alt-header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  box-sizing: border-box;
+}
+#settings-screen .alt-header,
+#settings-screen .status-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: white;
+}
+#settings-screen .status-bar {
+  z-index: 2;
+}
+
+#settings-screen .alt-header {
+  top: 20px;
+  z-index: 1;
+}
+
+#settings-screen .main-screen {
+  margin-top: 100px;
+}
