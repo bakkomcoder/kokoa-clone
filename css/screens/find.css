@@ -14,7 +14,6 @@
   align-items: center;
   height: 200px;
   padding-bottom: 15px;
-  color: var(--silver);
 }
 
 .open-chat__channel-header {
@@ -25,7 +24,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: var(--silver);
+  color: var(--textColor);
 }
 .open-chat:first-child {
   margin-top: 15px;
@@ -33,7 +32,6 @@
 
 .open-chat__title {
   font-size: 20px;
-  color: black;
 }
 .open-chat__hashtags {
   display: block;
@@ -54,7 +52,7 @@
 .open-chat__members .divider {
   width: 1px;
   height: 15px;
-  background-color: var(--silver);
+  background-color: var(--textColor);
   margin: 0px 5px;
 }
 .open-chat__members-status {

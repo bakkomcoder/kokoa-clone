@@ -12,6 +12,8 @@
   display: flex;
   justify-content: center;
   padding: 5px 3px;
+  color: var(--textColor);
+  background-color: var(--bgColor);
 }
 .status-bar__column {
   width: 33%;

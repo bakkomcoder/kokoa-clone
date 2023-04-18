@@ -1,6 +1,3 @@
-#settings-screen {
-  background-color: white;
-}
 .alt-header {
   position: fixed;
   width: 100%;
@@ -13,7 +10,7 @@
   top: 0;
   width: 100%;
   box-sizing: border-box;
-  background-color: white;
+  background-color: var(--bgColorLessDark);
 }
 #settings-screen .status-bar {
   z-index: 2;

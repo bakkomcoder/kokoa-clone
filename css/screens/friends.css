@@ -1,7 +1,7 @@
 #friends-display-link {
   text-align: center;
   display: block;
-  background-color: #fafafa;
+  background-color: var(--bgColorLessDark);
   padding: 15px 0px;
   font-size: 18px;
   margin-bottom: 15px;
@@ -42,4 +42,5 @@
   font-size: 128px;
   animation: hideSplashScreen 0.3s ease-in-out forwards;
   animation-delay: 1s;
+  color: var(--bgColorDark);
 }

@@ -8,13 +8,8 @@
 }
 .more__channel-header {
   margin: 30px 0px;
-  color: black;
   padding-top: -15px;
 }
-
-/* .more-screen .icon-row {
-  padding-top: 30px;
-} */
 
 .more-suggestion__icon {
   display: flex;
@@ -40,9 +35,6 @@
 .more-suggestion__icon-image i {
   font-size: 30px;
   color: white;
-}
-.more-suggestion__icon-text {
-  color: var(--silver);
 }
 
 .settings__setting {

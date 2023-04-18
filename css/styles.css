@@ -23,7 +23,8 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  color: #2e363e;
+  color: var(--textColor);
+  background-color: var(--bgColorDark);
 }
 
 .main-screen {

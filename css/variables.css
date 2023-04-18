@@ -3,6 +3,11 @@
   --brown: #3a1d1d;
   --silver: rgba(0, 0, 0, 0.5);
   --horizontal-space: 25px;
-  --main-border: 1px solid rgba(0, 0, 0, 0.1);
+  --main-border: 1px solid var(--bgColorLessDark);
   --box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  --bgColorDark: #1e1e1e;
+  --bgColorLessDark: #3f3f3f;
+  --textColorDark: #c8c8c8;
+  --textColor: #ecf0f1;
+  --accentColor: "#9b59b6";
 }
